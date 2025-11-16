@@ -1,0 +1,59 @@
+,Name,Cuisine,Price,Y_Rating_Value,Y_Review_Count,Y_Selected_Review,Star_Avg,Type,Star_Distinction
+0,Alain Ducasse at The Dorchester,French,££££ · Spare no expense,3.9,100,9.0,3.0,Star,3 Star
+1,CORE by Clare Smyth,Modern British,££££ · Spare no expense,4.6,30,9.0,3.0,Star,3 Star
+2,Hélène Darroze at The Connaught,Modern Cuisine,££££ · Spare no expense,3.9,41,7.0,3.0,Star,3 Star
+3,Restaurant Gordon Ramsay,French,££££ · Spare no expense,4.4,248,22.0,3.0,Star,3 Star
+4,"Sketch, The Lecture Room & Library",Modern French,££££ · Spare no expense,4.0,1047,121.0,3.0,Star,3 Star
+5,The Ledbury,Modern Cuisine,££££ · Spare no expense,4.6,175,7.0,2.3333333333333335,Star,2 Star
+6,A.Wong,Chinese,££££ · Spare no expense,4.0,66,7.0,2.0,Star,2 Star
+7,Claude Bosi at Bibendum,French,££££ · Spare no expense,3.9,73,9.0,2.0,Star,2 Star
+8,Dinner by Heston Blumenthal,Traditional British,££££ · Spare no expense,4.4,312,20.0,2.0,Star,2 Star
+9,Gymkhana,Indian,££££ · Spare no expense,4.3,212,48.0,1.3333333333333333,Star,1 Star
+10,Kitchen Table,Modern Cuisine,££££ · Spare no expense,4.8,41,5.0,2.0,Star,2 Star
+11,Le Gavroche,French,££££ · Spare no expense,4.3,65,3.0,2.0,Star,2 Star
+12,Story,Modern Cuisine,££££ · Spare no expense,4.5,43,1.0,2.0,Star,2 Star
+13,The Clove Club,Creative,££££ · Spare no expense,4.3,115,15.0,2.0,Star,2 Star
+14,Amaya,Indian,£££ · Special occasion,4.2,192,15.0,1.0,Star,1 Star
+15,Benares,Indian,££££ · Spare no expense,3.8,126,10.0,1.0,Star,1 Star
+16,Brat,Traditional British,£££ · Special occasion,4.2,40,21.0,1.0,Star,1 Star
+17,Chez Bruce,French,£££ · Special occasion,4.6,59,2.0,1.0,Star,1 Star
+18,City Social,"Modern Cuisine, Classic Cuisine",£££ · Special occasion,4.0,45,14.0,1.0,Star,1 Star
+19,Dining Room at The Goring,Traditional British,£££ · Special occasion,4.1,33,5.0,1.0,Star,1 Star
+20,Galvin La Chapelle,French,£££ · Special occasion,4.0,64,5.0,1.0,Star,1 Star
+21,Harwood Arms,Modern British,£££ · Special occasion,4.6,149,18.0,1.0,Star,1 Star
+22,HIDE,Modern British,££££ · Spare no expense,4.5,55,20.0,1.0,Star,1 Star
+23,Jamavar,Indian,£££ · Special occasion,4.1,61,17.0,1.0,Star,1 Star
+24,Kai,Chinese,££££ · Spare no expense,3.9,51,7.0,1.0,Star,1 Star
+25,Kitchen W8,Modern Cuisine,£££ · Special occasion,4.3,44,5.0,1.0,Star,1 Star
+26,La Trompette,Modern British,£££ · Special occasion,4.5,37,1.0,1.0,Star,1 Star
+27,Locanda Locatelli,Italian,££££ · Spare no expense,4.2,64,4.0,1.0,Star,1 Star
+28,Lyle's,Modern British,£££ · Special occasion,4.0,52,16.0,1.0,Star,1 Star
+29,Murano,Italian,££££ · Spare no expense,4.0,45,5.0,1.0,Star,1 Star
+30,Pétrus by Gordon Ramsay,"French, French Contemporary",££££ · Spare no expense,4.5,138,17.0,1.0,Star,1 Star
+31,Pied à Terre,Creative,££££ · Spare no expense,4.5,65,10.0,1.0,Star,1 Star
+32,Pollen Street Social,Modern Cuisine,££££ · Spare no expense,4.2,94,7.0,1.0,Star,1 Star
+33,Quilon,Indian,£££ · Special occasion,4.4,173,16.0,1.0,Star,1 Star
+34,Ritz Restaurant,Modern British,££££ · Spare no expense,4.1,32,9.0,1.0,Star,1 Star
+35,River Café,Italian,££££ · Spare no expense,4.1,100,14.0,1.0,Star,1 Star
+36,St. JOHN,Traditional British,£££ · Special occasion,4.2,328,17.0,1.0,Star,1 Star
+37,The Ninth,Mediterranean Cuisine,£££ · Special occasion,4.5,32,8.0,1.0,Star,1 Star
+38,Trinity,Modern Cuisine,£££ · Special occasion,4.4,39,1.0,1.0,Star,1 Star
+39,Trishna,Indian,££ · A moderate spend,4.4,129,30.0,1.0,Star,1 Star
+40,Umu,Japanese,££££ · Spare no expense,4.1,39,1.0,1.0,Star,1 Star
+41,Veeraswamy,Indian,£££ · Special occasion,4.2,228,25.0,1.0,Star,1 Star
+42,Wild Honey St James,Modern British,£££ · Special occasion,4.1,86,15.0,1.0,Star,1 Star
+43,Bancone,Italian,££ · A moderate spend,4.2,52,29.0,,Bib,Bib Gourmand
+44,Palomar,Middle Eastern,££ · A moderate spend,4.7,136,19.0,,Bib,Bib Gourmand
+45,Kricket,Indian,££ · A moderate spend,4.4,53,17.0,,Bib,Bib Gourmand
+46,Kiln,"Thai, South East Asian",££ · A moderate spend,4.3,86,19.0,,Bib,Bib Gourmand
+47,Berenjak,Persian,££ · A moderate spend,4.3,30,22.0,,Bib,Bib Gourmand
+48,Hoppers,"South Indian, Sri Lankan",££ · A moderate spend,4.4,137,19.0,,Bib,Bib Gourmand
+49,The Barbary,"North African, Mediterranean Cuisine",££ · A moderate spend,4.8,107,26.0,,Bib,Bib Gourmand
+50,Bao,Taiwanese,£ · On a budget,4.1,211,20.0,,Bib,Bib Gourmand
+51,Padella,Italian,££ · A moderate spend,4.5,294,40.0,,Bib,Bib Gourmand
+52,José,Spanish,££ · A moderate spend,4.5,98,13.0,,Bib,Bib Gourmand
+53,Gunpowder Spitalfields,Indian,££ · A moderate spend,4.4,65,15.0,,Bib,Bib Gourmand
+54,St. JOHN Bread and Wine,Traditional British,££ · A moderate spend,4.2,145,14.0,,Bib,Bib Gourmand
+55,Smokestak,"Meats and Grills, Barbecue",££ · A moderate spend,4.4,45,10.0,,Bib,Bib Gourmand
+56,Kateh,Persian,££ · A moderate spend,4.0,30,1.0,,Bib,Bib Gourmand
+57,Hereford Road,"Traditional British, Classic Cuisine",££ · A moderate spend,4.0,59,2.0,,Bib,Bib Gourmand
