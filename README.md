@@ -73,28 +73,4 @@ data cleaning → text preprocessing → sentiment analysis → topic modeling �
   3. Atmosphere & setting  
   4. Value for money  
 
-*(You can adjust these bullets once你跑完分析)*
-
 ---
-
-## 📁 Repository Structure
-
-```text
-.
-├── data/
-│   ├── Selected_Restaurant.csv      # restaurant-level dataset
-│   ├── Reviews_All_clean.csv        # review-level dataset with processed text
-│   └── README.md                    # short note on data fields
-├── notebooks/
-│   ├── 01_data_preprocessing.ipynb  # cleaning, joining, text preprocessing
-│   ├── 02_sentiment_analysis.ipynb  # VADER sentiment, group comparisons
-│   └── 03_topic_modeling.ipynb      # Bag-of-Words, TF-IDF, LDA topics
-├── visuals/
-│   ├── star_vs_bib_sentiment.png
-│   ├── sentiment_by_star_level.png
-│   └── lda_topics_overview.png
-├── src/
-│   ├── text_cleaning.py             # reusable text preprocessing functions
-│   └── sentiment_utils.py           # helper functions for sentiment analysis
-├── requirements.txt
-└── README.md
