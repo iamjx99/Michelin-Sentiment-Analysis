@@ -1,5 +1,4 @@
 # Sentiment Analysis of Michelin Restaurants
----
 ### Michelin-Guide Restaurants vs Public Opinion in London
 
 This repository presents **a refined and condensed portfolio version** of my **MSc Data Science** dissertation completed at the University of Sheffield (2024).
@@ -25,28 +24,67 @@ This portfolio version focuses on presenting:
 to make the research more accessible and easy to explore.
 
 
---- ---
+---
 
 
 ## 01_Introduction
 
 #### Do Michelin awards truly reflect what diners value?
 
-This question sits at the heart of modern dining culture. The Michelin Guide has long been considered the gold standard of culinary excellence — built on anonymous inspections, rigorous criteria, and a century of authority. Yet in today’s digital landscape, platforms like Yelp offer an entirely different voice: the collective experience of everyday diners who judge not only technique and creativity, but also service, atmosphere, and value for money.
+This question lies at the centre of a long-standing tension in the restaurant world.
 
-London, one of the world’s most competitive culinary hubs, provides a unique environment where Michelin-starred restaurants and Bib Gourmand selections coexist with thousands of consumer-generated reviews. This contrast raises a fundamental tension:
-Do expert evaluations truly align with public sentiment?
-Are higher prices and Michelin prestige reflected in real customer satisfaction?
-And do Bib Gourmand restaurants — celebrated for affordability — actually deliver a better dining experience?
+For over a century, the Michelin Guide has defined culinary excellence through anonymous inspections and rigorous evaluation standards. Yet in today’s digital era, platforms like Yelp capture a very different perspective — one shaped by diverse diners who care not only about creativity and technique, but also service quality, atmosphere, and above all, value for money.
 
-To answer these questions, this project combines sentiment analysis, topic modelling, and statistical testing to compare professional Michelin assessments with public feedback on Yelp. By analysing **881 reviews** across **58 restaurants**, the study explores how diners perceive food quality, service, value, and overall satisfaction — and whether these insights support or contradict Michelin’s distinctions.
+London, one of the world’s most competitive dining hubs, uniquely amplifies this contrast. Here, Michelin-starred restaurants and Bib Gourmand selections coexist with thousands of real customer reviews, revealing potential gaps between expert judgement and public sentiment. This raises several essential questions:
+- Do Michelin distinctions align with what customers actually experience?
+- Does a higher price guarantee a better dining experience?
+- And do Bib Gourmand restaurants — celebrated for affordability — provide greater perceived value than starred establishments?
 
-This condensed portfolio version presents the essential methodology, core findings, and key analytical insights from my MSc dissertation, focusing on clarity and practical relevance for data-driven evaluation of restaurant experiences.
+To explore these questions, this project applies sentiment analysis, topic modelling, and statistical testing to compare Michelin’s professional assessments with 881 Yelp reviews across 58 restaurants in London. The goal is to uncover how diners perceive food, service, pricing, and overall satisfaction — and to determine whether these perceptions reinforce or challenge Michelin’s awards.
+
+### 🎯 Research Objectives & Hypotheses
+
+This study focuses on three core objectives, each supported by a set of hypotheses derived from both consumer behaviour theory and empirical expectations.
+
+#### Objective 1 — Assess whether Michelin-rated restaurants meet customer expectations
+
+##### Key Question: Are customers truly satisfied with Michelin-recognised restaurants?
+
+##### Hypotheses:
+- H1. Most Yelp ratings for Michelin restaurants fall within the 4–5 star range.
+- H2. Sentiment score distributions mirror the Yelp rating distribution.
+- H3. Sentiment scores and Yelp ratings exhibit a significant positive correlation.
+
+
+
+#### Objective 2 — Compare satisfaction between Michelin-starred and Bib Gourmand restaurants
+##### Key Question: Does higher price or Michelin prestige translate into higher customer satisfaction?
+##### Hypotheses:
+- H4. Price level positively correlates with customer satisfaction.
+- H5. Higher-priced restaurants receive more positive sentiment.
+- H6. Average ratings for Bib Gourmand restaurants differ significantly from Michelin-starred restaurants.
+- H7. Sentiment score distributions differ between Bib Gourmand and Michelin restaurants.
+- H8. Yelp ratings differ significantly across Michelin star tiers (1, 2, 3 stars).
+- H9. Michelin star distinctions correlate with sentiment scores.
+
+
+#### Objective 3 — Identify the factors shaping positive and negative dining experiences
+##### Key Question: What elements — food, service, pricing, or specific language in reviews — drive satisfaction or dissatisfaction?
+##### Hypotheses:
+- H10. Certain high-frequency words strongly correlate with sentiment scores.
+- H11. Word–sentiment relationships differ across Michelin categories (Bib, 1-star, 2-star, 3-star).
+- H12. Topic modelling reveals distinct themes across different Michelin distinctions.
+
+
+---
 
 
 
 
-## 🎯 Project Overview
+
+
+
+### 🎯 Project Overview
 
 **Main questions**
 
