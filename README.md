@@ -5,7 +5,7 @@ This repository presents **a refined and condensed portfolio version** of my **M
 
 While the full dissertation contains extensive academic analysis, this portfolio edition reorganises and distills the study into a clean, project-oriented format tailored for practical demonstration.
 
-The project investigates how public sentiment from **Yelp** reviews aligns—or diverges—from expert evaluations in the **Michelin Guide**.
+The project investigates how public sentiment from **Yelp** reviews aligns or diverges from expert evaluations in the **Michelin Guide**.
 
 By combining:
 - Exploratory Data Analysis
@@ -25,6 +25,14 @@ to make the research more accessible and easy to explore.
 
 
 ---
+
+
+## 
+
+
+
+
+
 
 
 ## 🎯 Project Overview
