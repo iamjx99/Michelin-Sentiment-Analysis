@@ -27,10 +27,20 @@ to make the research more accessible and easy to explore.
 ---
 
 
-## 
+## 01_Introduction
 
+#### Do Michelin awards truly reflect what diners value?
 
+This question sits at the heart of modern dining culture. The Michelin Guide has long been considered the gold standard of culinary excellence — built on anonymous inspections, rigorous criteria, and a century of authority. Yet in today’s digital landscape, platforms like Yelp offer an entirely different voice: the collective experience of everyday diners who judge not only technique and creativity, but also service, atmosphere, and value for money.
 
+London, one of the world’s most competitive culinary hubs, provides a unique environment where Michelin-starred restaurants and Bib Gourmand selections coexist with thousands of consumer-generated reviews. This contrast raises a fundamental tension:
+Do expert evaluations truly align with public sentiment?
+Are higher prices and Michelin prestige reflected in real customer satisfaction?
+And do Bib Gourmand restaurants — celebrated for affordability — actually deliver a better dining experience?
+
+To answer these questions, this project combines sentiment analysis, topic modelling, and statistical testing to compare professional Michelin assessments with public feedback on Yelp. By analysing **881 reviews** across **58 restaurants**, the study explores how diners perceive food quality, service, value, and overall satisfaction — and whether these insights support or contradict Michelin’s distinctions.
+
+This condensed portfolio version presents the essential methodology, core findings, and key analytical insights from my MSc dissertation, focusing on clarity and practical relevance for data-driven evaluation of restaurant experiences.
 
 
 
