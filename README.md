@@ -1,32 +1,31 @@
 # Sentiment Analysis of Michelin Restaurants
-## Michelin-Guide Restaurants vs Public Opinion in London
+### Michelin-Guide Restaurants vs Public Opinion in London
 
-This repository presents a refined and condensed portfolio version of my MSc Data Science dissertation completed at the University of Sheffield (2024).
+This repository presents **a refined and condensed portfolio version** of my **MSc Data Science** dissertation completed at the University of Sheffield (2024).
 
-The original research investigates how public sentiment from Yelp reviews aligns—or diverges—from expert evaluations in the Michelin Guide, focusing on Michelin-starred and Bib Gourmand restaurants in London.
-The portfolio edition restructures and streamlines the core analysis, highlighting key findings, statistical insights, and text-mining techniques (sentiment analysis & topic modelling) used in the study.
+While the full dissertation contains extensive academic analysis, this portfolio edition reorganises and distills the study into a clean, project-oriented format tailored for practical demonstration.
 
-It is designed to showcase the essential methodology and results in a clear and accessible project format.
+The project investigates how public sentiment from **Yelp** reviews aligns—or diverges—from expert evaluations in the **Michelin Guide**.
 
+By combining:
+- Exploratory Data Analysis
+- Sentiment analysis
+- Statistical modelling
+- Topic modelling
 
+this project analyzes **Yelp** reviews of **Michelin-starred** and **Bib Gourmand** restaurants in London to reveal how customers truly perceive these restaurants relative to their Michelin **recognition**, particularly in terms of **satisfaction**.
 
+This portfolio version focuses on presenting:
+- Essential methodology
+- Key findings
+- Core analytical insights
+- Important visualisations
 
+to make the research more accessible and easy to explore.
 
-
-
-
-
-
-
-
-
-
-
-
-This project analyzes Yelp reviews of Michelin-starred and Bib Gourmand restaurants in London
-to understand how customers actually feel about these restaurants compared to their Michelin recognition.
 
 ---
+
 
 ## 🎯 Project Overview
 
