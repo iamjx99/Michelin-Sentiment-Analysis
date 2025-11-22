@@ -1,4 +1,27 @@
-# Michelin Restaurants Sentiment Analysis
+# Sentiment Analysis of Michelin Restaurants
+## Michelin-Guide Restaurants vs Public Opinion in London
+
+This repository presents a refined and condensed portfolio version of my MSc Data Science dissertation completed at the University of Sheffield (2024).
+
+The original research investigates how public sentiment from Yelp reviews aligns—or diverges—from expert evaluations in the Michelin Guide, focusing on Michelin-starred and Bib Gourmand restaurants in London.
+The portfolio edition restructures and streamlines the core analysis, highlighting key findings, statistical insights, and text-mining techniques (sentiment analysis & topic modelling) used in the study.
+
+It is designed to showcase the essential methodology and results in a clear and accessible project format.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This project analyzes Yelp reviews of Michelin-starred and Bib Gourmand restaurants in London
 to understand how customers actually feel about these restaurants compared to their Michelin recognition.
