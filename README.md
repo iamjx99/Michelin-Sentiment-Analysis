@@ -1,4 +1,5 @@
 # Sentiment Analysis of Michelin Restaurants
+---
 ### Michelin-Guide Restaurants vs Public Opinion in London
 
 This repository presents **a refined and condensed portfolio version** of my **MSc Data Science** dissertation completed at the University of Sheffield (2024).
@@ -24,7 +25,7 @@ This portfolio version focuses on presenting:
 to make the research more accessible and easy to explore.
 
 
----
+--- ---
 
 
 ## 01_Introduction
