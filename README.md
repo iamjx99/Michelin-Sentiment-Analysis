@@ -5,6 +5,24 @@ This project analyzes **881 Yelp reviews** from **58 Michelin-starred and Bib Go
 
 It is a portfolio-oriented version of my **MSc Data Science** dissertation (University of Sheffield, 2024), redesigned for clarity, reproducibility, and technical demonstration.
 
+
+This project analyzes **881 Yelp reviews** from **58 Michelin-starred and Bib Gourmand restaurants** to evaluate whether **Michelin awards truly reflect what diners value**.
+
+It is a portfolio-ready adaptation of my **MSc Data Science** dissertation (University of Sheffield, 2024), rebuilt with a clean analytical workflow and reproducible code.
+A complete version of the research design, hypotheses, and methodology can be found in **DETAILS.md**.
+
+---
+
+
+
+
+
+
+
+
+
+
+
 ## Project Overview
 I conducted a full data science workflow:
 - Data Collection from Michelin Guide & Yelp
