@@ -4,9 +4,25 @@
 This project analyzes **881 Yelp reviews** from **58 Michelin-starred and Bib Gourmand restaurants** to evaluate whether **Michelin awards truly reflect what diners value**.
 
 It is a portfolio-ready adaptation of my **MSc Data Science** dissertation (University of Sheffield, 2024), rebuilt with a clean analytical workflow and reproducible code.
-A complete version of the research design, hypotheses, and methodology can be found in **DETAILS.md**.
+
+For the complete research design, hypotheses, and full methodology, please refer to **[DETAILS.md](DETAILS.md)**.
 
 ---
+
+## Key Findings
+
+## Results
+
+### Exploratory Data Analysis
+
+### N-gram
+
+### Sentiment Analysis
+
+### Topic Modelling
+
+
+## Conclusions
 
 
 
