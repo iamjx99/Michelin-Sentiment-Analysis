@@ -58,6 +58,63 @@ This structured design ensures that every analytical step—whether statistical 
 
 
 ## 02_Dataset Overview
+This study integrates two primary datasets:
+- Michelin Guide restaurant information
+- Yelp customer reviews
+
+together, they provide a combined view of expert evaluations and public sentiment regarding Michelin-recognised restaurants in London.
+
+### 02-1_Michelin Restaurant Dataset
+The Michelin dataset includes all Michelin-starred and Bib Gourmand restaurants in London that form the basis of the study.
+
+#### Structure and Variables
+| Variable              | Description                                                 |
+| --------------------- | ----------------------------------------------------------- |
+| **Name**              | Restaurant name (used as unique identifier)                 |
+| **Cuisine**           | Primary cuisine type                                        |
+| **Price**             | Michelin price indicator (e.g., ££££ · Spare no expense)    |
+| **Y_Rating_Value**    | Average Yelp rating for the restaurant                      |
+| **Y_Review_Count**    | Total number of Yelp reviews                                |
+| **Y_Selected_Review** | Number of reviews used in the analysis                      |
+| **Type**              | Michelin category group (“Star” or “Bib”)                   |
+| **Star_Distinction**  | Final Michelin classification (1★, 2★, 3★, or Bib Gourmand) |
+
+#### Dataset Summary
+- 58 restaurants
+- Covers Michelin-starred restaurants (1★ / 2★ / 3★) and Bib Gourmand selections
+- Includes both descriptive attributes (cuisine, price) and quantitative metrics (Yelp ratings)
+
+This dataset provides the structural labels required for comparing categories and price levels in later analysis.
+
+### 02-2_Yelp Review Dataset
+The Yelp dataset contains processed customer reviews matched to the same 58 restaurants.
+
+#### Structure and Variables
+| Variable                 | Description                                                |
+| ------------------------ | ---------------------------------------------------------- |
+| **Name**                 | Restaurant name (join key with Michelin dataset)           |
+| **Michelin_Distinction** | Numerical representation of Michelin rating                |
+| **Review_Date**          | Date of the review                                         |
+| **Review_Rating**        | User rating (1–5 stars)                                    |
+| **Processed_Review**     | Cleaned review text used for sentiment and topic modelling |
+
+#### Dataset Summary
+- 881 Yelp reviews
+- All reviews processed through tokenisation, stopword removal, and lemmatisation
+- Contains both numeric fields (ratings) and unstructured text (review content)
+
+### 02-3_Combined Analytical Dataset
+After merging the Michelin and Yelp datasets using restaurant names:
+- All 58 restaurants include corresponding Yelp metadata
+- Each review is linked to Michelin category, price level, and cuisine type
+- The final dataset contains structured attributes and processed text, enabling:
+-- Cross-category comparisons
+-- Sentiment analysis
+-- Statistical testing
+-- Topic modelling
+
+This integrated dataset forms the foundation for all subsequent analysis.
+
 
 ---
 ## 03_Methodology
