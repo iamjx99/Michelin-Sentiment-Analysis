@@ -122,46 +122,17 @@ This integrated dataset forms the foundation for all subsequent analysis.
 ## 03_Methodology
 
 
-GitHub 會自動把它渲染成一張流程圖。
-
 ---
 
-## 你的專案版 Mermaid Flowchart（可直接貼）
 
-這版是根據你實際流程寫的：Michelin / Yelp → 篩選餐廳 → 清理評論 → NLP 前處理 → 合併 → 分析。
-
-```markdown
-```mermaid
-flowchart TD
-    A[Michelin_Star.csv<br/>Michelin_Bib.csv] --> B[Compute 2022–2024<br/>average star (Star_Avg)]
-    B --> C[Filter restaurants<br/>(Star_Avg ≥ 0.5)]
-    C --> D[Filter by Yelp metadata<br/>(Y_Rating_Value ≠ 0,<br/>Y_Review_Count ≥ 30)]
-    D --> E[Label Type = Star / Bib<br/>Create Star_Distinction]
-    E --> F[Selected_Restaurant.csv]
-
-    A2[Yelp_Reviews.csv] --> G[Remove duplicates<br/>Check rating range]
-    G --> H[Parse Review_Date<br/>(valid dates only)]
-    H --> I[Text preprocessing<br/>(lowercase, regex clean,<br/>tokenise, remove stopwords,<br/>lemmatise)]
-    I --> J[Processed_Review.csv]
-
-    F --> K[Merge on restaurant name]
-    J --> K
-    K --> L[Exploratory Data Analysis]
-    K --> M[Sentiment analysis]
-    K --> N[Statistical tests<br/>(t-test, ANOVA,<br/>correlation, regression)]
-    K --> O[Topic modelling<br/>(LDA)]
-
-    M --> P[Evaluate H1–H5]
-    N --> Q[Evaluate H1–H9]
-    O --> R[Evaluate H10–H12]
-
-
----
 ## 04_Results
 
 ### Exploratory Data Analysis (EDA)
 
+
 ---
+
+
 ## 05_Key Findings
 
 
