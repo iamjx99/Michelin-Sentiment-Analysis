@@ -48,7 +48,7 @@ The full mapping is summarised below:
 | Objective | Research Question(s) | Hypotheses |
 |----------|-----------------------|------------|
 | **O1. Customer satisfaction** | **RQ1:** Are customers satisfied with Michelin-recognised restaurants? | **H1–H3** |
-| **O2. Category & price differences** | **RQ2:** Does higher price correlate with higher satisfaction?<br>**RQ3:** How do Bib Gourmand and Michelin-starred restaurants differ in public sentiment? | **H4–H9** |
+| **O2. Category & price differences** | **RQ2:** Does higher price correlate with higher satisfaction?<br>**RQ3:** How do Bib Gourmand and Michelin-starred restaurants differ in public sentiment? | **H4–H5**<br>**H6-H9** |
 | **O3. Linguistic and thematic drivers** | **RQ4:** Which words, topics, or themes shape positive and negative sentiment? | **H10–H12** |
 
 This structured design ensures that every analytical step—whether statistical testing, sentiment analysis, or topic modelling—directly contributes to answering the central question introduced at the beginning of the study.
