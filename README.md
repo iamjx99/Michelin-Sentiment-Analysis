@@ -64,7 +64,7 @@ This study integrates two primary datasets:
 
 together, they provide a combined view of expert evaluations and public sentiment regarding Michelin-recognised restaurants in London.
 
-### 02-1_Michelin Restaurant Dataset
+### 02-01_Michelin Restaurant Dataset
 The Michelin dataset includes all Michelin-starred and Bib Gourmand restaurants in London that form the basis of the study.
 
 #### Structure and Variables
@@ -86,7 +86,7 @@ The Michelin dataset includes all Michelin-starred and Bib Gourmand restaurants 
 
 This dataset provides the structural labels required for comparing categories and price levels in later analysis.
 
-### 02-2_Yelp Review Dataset
+### 02-02_Yelp Review Dataset
 The Yelp dataset contains processed customer reviews matched to the same 58 restaurants.
 
 #### Structure and Variables
@@ -103,15 +103,15 @@ The Yelp dataset contains processed customer reviews matched to the same 58 rest
 - All reviews processed through tokenisation, stopword removal, and lemmatisation
 - Contains both numeric fields (ratings) and unstructured text (review content)
 
-### 02-3_Combined Analytical Dataset
+### 02-03_Combined Analytical Dataset
 After merging the Michelin and Yelp datasets using restaurant names:
 - All 58 restaurants include corresponding Yelp metadata
 - Each review is linked to Michelin category, price level, and cuisine type
 - The final dataset contains structured attributes and processed text, enabling:
--- Cross-category comparisons
--- Sentiment analysis
--- Statistical testing
--- Topic modelling
+  - Cross-category comparisons
+  - Sentiment analysis
+  - Statistical testing
+  - Topic modelling
 
 This integrated dataset forms the foundation for all subsequent analysis.
 
