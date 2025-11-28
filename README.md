@@ -6,6 +6,7 @@ This project analyzes **881 Yelp reviews** from **58 Michelin-starred and Bib Go
 It is a portfolio-ready adaptation of my **MSc Data Science** dissertation (University of Sheffield, 2024), rebuilt with a clean analytical workflow and reproducible code.
 
 For the complete background, research design, hypotheses, and full methodology, please refer to **[DETAILS.md](DETAILS.md)**.
+
 中文摘要請參見 **[中文摘要.md](中文摘要.md)**。
 
 ---
