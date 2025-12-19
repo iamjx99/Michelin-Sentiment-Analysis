@@ -120,8 +120,93 @@ This integrated dataset forms the foundation for all subsequent analysis.
 
 
 ## 03_Methodology
+This section outlines the end-to-end analytical workflow used in the project. The goal is to ensure that each research question and hypothesis is supported by a clear, reproducible method—covering data preparation, sentiment scoring, statistical testing, and topic modelling.
+
+The methodology is organised into four stages:
+**1. Data Preparation & Cleaning**
+**2. Exploratory Data Analysis (EDA)**
+**3. Sentiment Analysis & Statistical Modelling**
+**4. Topic Modelling & Keyword Analysis**
 
 
+### 03-01_Data Preparation & Cleaning
+Before analysis, all restaurant metadata and review text were standardised to ensure consistent joins and reliable downstream modelling.
+
+#### Key steps
+- Restaurant matching: Michelin restaurant records were matched with Yelp data using restaurant name as the join key.
+- Deduplication: duplicated Yelp reviews were removed to avoid double-counting.
+- Text preprocessing: reviews were cleaned and normalised to improve the quality of sentiment and topic modelling.
+
+#### Text preprocessing pipeline
+- Lowercasing
+- Removing punctuation, digits, and excessive whitespace
+- Tokenisation
+- Stopword removal
+- Lemmatisation
+
+#### The output of this stage is a cleaned analytical dataset with:
+- structured variables (Michelin category, cuisine, price, Yelp rating)
+- processed review text for NLP tasks
 
 
+### 03-02_Exploratory Data Analysis (EDA)
+EDA is used to validate dataset structure and establish initial patterns in customer ratings and review behaviour.
 
+#### EDA focuses on
+- Rating differences across Michelin distinctions (Bib vs 1★/2★/3★)
+- Review volume distribution across categories
+- Review length patterns by rating level
+- Basic distributions for cuisine and price indicators
+- These exploratory results provide context for interpreting later statistical tests and NLP outputs.
+
+### 03-03_Sentiment Analysis
+To complement numerical Yelp ratings, sentiment analysis is applied to review text to quantify emotional tone and satisfaction signals expressed in written feedback.
+
+#### Approach
+- Each processed review is assigned a sentiment score representing its overall polarity.
+- Sentiment results are then compared against:
+  - Yelp numerical ratings (1–5)
+  - Michelin distinction groups (Bib vs star levels)
+  - price categories
+ 
+#### Why sentiment analysis is included
+- Yelp ratings are a single numeric value, while sentiment captures nuance in language.
+- Reviews with similar ratings can express different emotional tones.
+- Sentiment helps bridge quantitative satisfaction measures and qualitative explanations.
+
+The sentiment score is treated as a descriptive signal to support interpretation of review content, rather than as a clinical or human-validated psychological measure.
+
+### 03-04_Statistical Modelling & Hypothesis Testing
+Statistical testing is used to evaluate whether observed differences in ratings and sentiment are systematic across restaurant groups and price tiers.
+
+#### Core comparisons
+- Correlation analysis
+  - Relationship between sentiment scores and Yelp ratings
+  - Relationship between price indicators and satisfaction signals
+- Group comparison tests
+  - Comparing Bib Gourmand vs Michelin-starred groups
+  - Comparing star levels (1★/2★/3★) where applicable
+ 
+#### Reporting principles
+  - Results are interpreted as comparative and observational, not causal.
+  - Findings are presented alongside visualisations to prioritise clarity and interpretability.
+
+### 03-05_Topic Modelling & Keyword Analysis
+To identify what diners actually talk about—beyond overall ratings—topic modelling and keyword analysis are applied to the review corpus.
+
+#### Methods included
+- Keyword comparison (N-grams / TF-IDF)
+  - Highlights terms associated with high vs low ratings
+  - Identifies language differences across Michelin categories
+- Topic modelling
+  - Extracts recurring themes from customer reviews
+  - Supports interpretation of common drivers of satisfaction and dissatisfaction
+ 
+#### Outputs
+  - A set of interpretable topics with representative keywords
+  - Comparative patterns showing how themes differ across:
+    - Michelin distinctions
+    - rating levels
+    - sentiment polarity
+  
+This stage directly supports RQ4, translating unstructured review text into structured insight about the drivers of positive and negative dining experiences.
