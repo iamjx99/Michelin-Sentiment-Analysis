@@ -53,6 +53,7 @@ The analytical design explicitly distinguishes between restaurant-level and revi
 Customer ratings show substantial overlap across Michelin categories.
 While Michelin-starred restaurants generally receive high ratings, **higher star levels do not consistently correspond to higher Yelp scores**.
 Bib Gourmand restaurants often achieve ratings comparable to, or higher than, Michelin-starred restaurants, suggesting that professional recognition and customer evaluation are not perfectly aligned.
+
 ![Yelp Ratings by Michelin Distinction](visuals/Figure_01.png)
 
 
@@ -60,6 +61,7 @@ Bib Gourmand restaurants often achieve ratings comparable to, or higher than, Mi
 The number of Yelp reviews varies considerably across Michelin categories.
 Bib Gourmand and Michelin 3-star restaurants attract relatively high volumes of reviews, indicating strong public interest and visibility.
 This variation in review volume highlights the importance of considering both **rating values and review text**, rather than relying on numerical scores alone.
+
 ![Review Volume by Michelin Distinction](visuals/Figure_02.png)
 
 
@@ -67,6 +69,7 @@ This variation in review volume highlights the importance of considering both **
 Review length differs noticeably across rating levels.
 Lower-rated reviews tend to be **longer and more detailed**, while higher-rated reviews are generally shorter.
 This pattern suggests that dissatisfied customers are more likely to provide extended explanations of their experience, making textual analysis particularly valuable for understanding negative feedback.
+
 ![Review Length and Rating](visuals/Figure_06.png)
 
 
@@ -74,17 +77,45 @@ This pattern suggests that dissatisfied customers are more likely to provide ext
 Text analysis reveals clear differences between high- and low-rated reviews.
 High-rated reviews emphasise **food quality, enjoyment, and overall experience**, whereas low-rated reviews frequently mention **service issues, waiting time, and cost-related concerns**.
 These keyword patterns are consistent across restaurant categories, indicating shared customer priorities regardless of Michelin distinction.
+
 ![Keyword Differences in Reviews](visuals/Figure_09.png)
 
 
-
 ### Sentiment Analysis
+To complement numerical Yelp ratings, sentiment analysis was applied to the processed review text to quantify the emotional tone expressed by diners. This provides an additional signal beyond star scores and helps explain why customers assign particular ratings.
+
+#### Sentiment and Rating Alignment
+Sentiment scores generally increase as Yelp ratings increase, indicating a clear monotonic relationship between the numeric score and the tone of the written review. In this dataset, sentiment and rating are **moderately aligned** (Spearman ρ ≈ 0.56), suggesting that sentiment scoring captures meaningful satisfaction signals from text.
+
+![Sentiment and Rating Alignment](visuals/Figure_11.png)
+
+
+#### Why Sentiment Adds Value
+Although sentiment and rating typically move in the same direction, they are not perfectly equivalent. A small number of reviews show mismatches (e.g., high ratings with neutral/negative tone), which often reflects situations where customers “liked the restaurant overall” but still described concrete issues such as delays, service gaps, or perceived value concerns.
+
+Overall, sentiment analysis functions as a practical bridge between numerical satisfaction (ratings) and qualitative experience (review narratives), supporting interpretation of what diners value beyond Michelin recognition.
+
+
 
 ### Topic Modelling
+To identify what diners actually talk about—beyond overall ratings and sentiment—topic modelling was applied to the review corpus. This step converts unstructured review text into a set of recurring, interpretable themes, helping explain the main drivers behind positive and negative experiences.
 
+#### Topic Structure
+The model produces a small set of dominant topics that repeatedly appear across reviews. In general, these themes can be grouped into:
+- **Food quality and taste** (e.g., flavour, ingredients, cooking quality)
+- **Service and staff experience** (e.g., attentiveness, responsiveness, friendliness)
+- **Fine-dining experience and tasting menus** (e.g., courses, pacing, presentation)
+- **Atmosphere and setting** (e.g., ambience, space, comfort)
+- **Value and operational factors** (e.g., price perceptions, waiting time, booking and queue experience)
+
+#### How Topics Support the Research Question
+Across Michelin categories, review narratives are not limited to cuisine alone. Even for Michelin-starred restaurants, customer satisfaction is strongly shaped by experience factors such as service quality and waiting time. Meanwhile, Bib Gourmand reviews more frequently emphasise comfort, portions, and value-for-money language, aligning with the positioning of the Bib category.
+
+Overall, topic modelling provides an interpretable summary of the main themes that drive public opinion, showing that diners evaluate restaurants through a combination of food quality and broader dining experience—rather than Michelin recognition alone.
 
 
 ---
+
 
 ## Conclusions
 
