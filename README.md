@@ -63,17 +63,18 @@ This variation in review volume highlights the importance of considering both **
 ![Review Volume by Michelin Distinction](visuals/Figure_02.png)
 
 
-#### Michelin distinctions & review distribution
-- Bib Gourmand restaurants have the largest total number of Yelp reviews, exceeding all Michelin-star levels.
-- 3-star restaurants have more reviews than 1-star restaurants, showing stronger public attention despite being fewer in number.
-
-#### Cuisine distribution
-Most common cuisines among Michelin-recognised restaurants in London:
-- British (25)
-- Modern (23)
-- French, Italian, Indian
+#### Review Length and Rating
+Review length differs noticeably across rating levels.
+Lower-rated reviews tend to be **longer and more detailed**, while higher-rated reviews are generally shorter.
+This pattern suggests that dissatisfied customers are more likely to provide extended explanations of their experience, making textual analysis particularly valuable for understanding negative feedback.
+![Review Length and Rating](visuals/Figure_06.png)
 
 
+#### Keyword Differences in Reviews
+Text analysis reveals clear differences between high- and low-rated reviews.
+High-rated reviews emphasise **food quality, enjoyment, and overall experience**, whereas low-rated reviews frequently mention **service issues, waiting time, and cost-related concerns**.
+These keyword patterns are consistent across restaurant categories, indicating shared customer priorities regardless of Michelin distinction.
+![Keyword Differences in Reviews](visuals/Figure_09.png)
 
 
 
