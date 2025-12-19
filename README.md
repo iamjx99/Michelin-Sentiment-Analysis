@@ -56,7 +56,11 @@ Bib Gourmand restaurants often achieve ratings comparable to, or higher than, Mi
 ![Yelp Ratings by Michelin Distinction](visuals/Figure_01.png)
 
 
-
+#### Review Volume by Michelin Distinction
+The number of Yelp reviews varies considerably across Michelin categories.
+Bib Gourmand and Michelin 3-star restaurants attract relatively high volumes of reviews, indicating strong public interest and visibility.
+This variation in review volume highlights the importance of considering both **rating values and review text**, rather than relying on numerical scores alone.
+![Review Volume by Michelin Distinction](visuals/Figure_02.png)
 
 
 #### Michelin distinctions & review distribution
